@@ -1,0 +1,52 @@
+     /* Estilos para el contenedor de la barra de navegación */
+     .navbar {
+        background-color: #3498db;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    /* Estilos para los enlaces en la barra de navegación */
+    .navbar a {
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+        transition: background-color 0.3s, transform 0.3s; /* Agregar transición para el color de fondo y la transformación */
+    }
+
+    /* Cambiar el color del enlace cuando se pasa el mouse por encima */
+    .navbar a:hover {
+        background-color: #2980b9;
+        transform: scale(1.1); /* Agrandar el enlace al pasar el mouse por encima */
+    }
+
+    /* Estilos para el logotipo en la barra de navegación */
+    .navbar .logo {
+        margin-right: auto;
+        padding: 14px 20px;
+        font-weight: bold;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* Animación para el logotipo cuando se pasa el mouse por encima */
+    .navbar .logo:hover {
+        animation: rotate 1s infinite; /* Agregar una animación de rotación infinita al logotipo */
+    }
+
+
+    /* Estilos para los enlaces del contenido del sitio web */
+    #contenido a {
+        color: #3498db;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    /* Cambiar el color del enlace del contenido cuando se pasa el mouse por encima */
+    #contenido a:hover {
+        color: #2980b9;
+    }
